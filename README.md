@@ -13,7 +13,7 @@ $ plees2charter <plees-tracker-export.csv> [<output>]
 
 Options
   --verbose, -v   Print output contents
-  --timezone, -t  Specify timezone (must be a string from the ${tz_database})
+  --timezone, -t  Specify timezone (must be a string from the tz database)
 
 Examples
   $ plees2charter sleep.csv
