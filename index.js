@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const moment = require('moment-timezone');
 const csv = require('csvtojson');
 const jsonexport = require('jsonexport');
