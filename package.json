@@ -1,0 +1,28 @@
+{
+  "name": "plees2charter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "index.js",
+  "author": "quinn-dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quinn-dev/plees-tracker.git"
+  },
+  "scripts": {
+    "build:linux": "pkg -t linux --out-path build .",
+    "build:macos": "pkg -t macos --out-path build .",
+    "build:win": "pkg -t win --out-path build .",
+    "build:all": "pkg --out-path build ."
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "csvtojson": "^2.0.10",
+    "jsonexport": "^3.0.1",
+    "meow": "^9.0.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "pkg": "^4.4.9",
+    "terminal-link": "^2.1.1"
+  }
+}
