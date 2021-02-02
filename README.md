@@ -1,6 +1,6 @@
 # plees2charter
 
-Simple CLI for converting a plees-tracker sleep diary to a CSV compatible with Kizari's [SleepCharter](https://sleepcharter.z13.web.core.windows.net/).
+Simple CLI for converting a [plees-tracker](https://github.com/vmiklos/plees-tracker) sleep diary to a CSV compatible with Kizari's [SleepCharter](https://sleepcharter.z13.web.core.windows.net/).
 
 ## Usage
 1. Export your sleep diary from plees-tracker by clicking on "Export to file" in the application's menu.
